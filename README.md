@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+<h1 align="center">
+Stock Photos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💻 Project
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+- A Stock Photo application with infinite scrolling and search functionality using [unplash API](https://api.unsplash.com).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p>&nbsp;&nbsp;</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🔥 Check it out!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</br>
 
-### `npm run build`
+- [Demo](https://stock-photo.netlify.app/)
+<p align="center">
+  <img src="src/images/photos-gif.gif" />
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>&nbsp;&nbsp;</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting started
 
-### `npm run eject`
+#### - **Setup**: Getting the Key 🔑
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**1.** Before anything, if already haven´t, you must create an account at [Unsplash](http://unsplash.com/).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**2.** After that, click on the four dots on the top of the navbar on the right side, and then select `API/Developers `.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**3.** There you gonna see two buttons, **You apps** and **View the documentation**, click on **Your apps** button to create a new application.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**4.** Now, check all checkboxes and click on **Accept terms**. Will ask for _application name_ (choose one of your choice) and a _Description_ (put one of your choice too). And then, click **Create application**.
 
-## Learn More
+**5.** On you Application page, keep scrolling until you see **Keys**, copy the _Access Key_, we gonna use it on the next step!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### - **Install**: Clone this repository and run the following commands inside the project folder
 
-### Code Splitting
+**1.** Create a `.env` file on the root of the project, and write as following, replacing the sentence **YOUR_ACCESS_KEY** by the key you got (and copied) from unplash.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+> `$ REACT_APP_ACCESS_KEY=YOUR_ACCESS_KEY`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   
+**2.** `npm install` or `yarn`;
 
-### Making a Progressive Web App
+**3.** `npm start` or `yarn start`;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To view the project you can open `http://localhost:3000`.
 
-### Advanced Configuration
+<p>&nbsp;&nbsp;</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
